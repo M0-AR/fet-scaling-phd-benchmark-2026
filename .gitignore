@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+benchmarks/results/*.csv
+benchmarks/results/*.json
+!benchmarks/results/.gitkeep

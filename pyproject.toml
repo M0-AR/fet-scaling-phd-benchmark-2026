@@ -1,0 +1,9 @@
+[project]
+name = "fet-scaling-phd-benchmark-2026"
+version = "1.0.0"
+description = "Reproducible FET + technology-scaling benchmark (HKUSTx Weeks 1-7)"
+requires-python = ">=3.10"
+dependencies = ["numpy==1.26.4","scipy==1.12.0","matplotlib==3.8.4","pandas==2.2.2","pytest==8.3.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

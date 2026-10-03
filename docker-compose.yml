@@ -1,0 +1,9 @@
+services:
+  fetlab:
+    build: .
+    volumes:
+      - ./benchmarks/results:/work/benchmarks/results
+    command: python experiments/run_all.py
+  verify:
+    build: .
+    command: pytest -v
